@@ -1,0 +1,15 @@
+@use "../../styles/breakpoints.scss" as *;
+
+
+.home {
+    background-color: orange;
+    font-family:'Trebuchet MS';
+    height: 100vh;
+    // display: ;
+
+    &__graphic {
+        height: 8rem;
+        border-radius: 0.5rem;
+        margin-left: 35%;
+    }
+}

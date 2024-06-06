@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+My app has two simple goals: one, to allow for children and teens to be able to track their savings, and two, to promote financial literacy amongst them. 
 
-In the project directory, you can run:
+My MVP consists of 4 pages (2 will be for later sprints as nice to haves, and 2 will be part of the core deliverables) - a sign up page, a login page, and once logged in, the first page it will direct the user to will present a little nugget of financial information to promote understanding of basic financial concepts, and then the user can proceed to updating their savings balance, as well as checking their savings. 
 
-### `npm start`
+### Problem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Financial literacy is an important tool to have, and healthy financial habits can help all individuals throughout their lives. 
+For children, this information is rarely taught, and if a weekly/monthly allowance is given, perhaps if it is combined with a better understanding of how money works, they can become more responsible with the money they have. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### User Profile
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app will be geared towards teenagers and children who may be old enough to get pocket money, so that they can track their funds. 
 
-### `npm run build`
+### Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Core requirements: 
+Education page: Will display a short snippet of financial information. A button to then link to the next page. It is an intentional decision to have the education piece be the landing page after login, so that it primes the user to think from an informed place, before looking at their money tracker. 
+Tracker: User input will be required here to increase or decrease the money saved/spent. The balance available will be updated.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Nice to haves:
+Sign up page: Allows user to create username, and password, and provide a name along with it to assign to the account. Button to allow information to be sent to the database. 
+Login Page: will take in username and password to allow access to account details, so that past balance is rendered. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Implementation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tech stack: MySQL, React, Express, Node, JavaScript, HTML, SASS. 
+Libraries: Axios, Toastify, Reacter-router, among others. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### APIs
 
-## Learn More
+Core requirements:
+Will use an API to house all the educational snippets. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Nice to have:
+A database will need to be created to store account balances. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Sitemap
 
-### Code Splitting
+Please refer to project mockups.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Mockups
 
-### Analyzing the Bundle Size
+![Mobile view](./mockups/MobileView.png)
+![Tablet view](./mockups/TabletView.png)
+![Desktop view](./mockups/DesktopView.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Data
 
-### Making a Progressive Web App
+Core requirements:
+Education page - Will retrieve a randomized item from the API to display to user. 
+Tracker - Will allow for user to update their balance, by adding or subtracting an amount. Once updated, this will update their account balance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Nice to haves:
+Sign up page - will send data to store in database
+Login in page - will find matches with existing user accounts, and if matches are found, will allow for user to login 
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Endpoints
 
-### Deployment
+Core requirements:
+api.get(“/home”) - Display’s user’s own account - displays educational information
+api.get(“/tracker”) - retrieves stored data - which is previous account balance
+api.post(“/tracker”) - sends updated balance after user either adds, or subtracts from existing balance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Nice to haves:
+api.post(“/signup”) - Allows for new user to create an account
+api.post(“/login”) - Allows an existing user to send login information, to then be able to retrieve their account
 
-### `npm run build` fails to minify
+### Auth
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This app might have login information, but that is not part of the core requirements. If login information is added, it will not not require any personal information, other than login credentials to remember the data, considering that the website is geared towards a younger audience, there is less personal data that will be taken from them. The login is just so that their personal account remembers their balance. 
+
+I hope to build on this project, so eventually, login information will be required, even if it not added as part of the capstone project itself. 
+
+
+## Roadmap
+
+Sprint 1 - Work on education + tracker pages to ensure API calls work.  Sprint 2 - Add login authentication/authorization to then allow for user accounts 
+Sprint 3 - Add any additional nice-to-haves that there will be time and capacity for
+
+## Nice-to-haves
+
+// Login authentication/authorization
+// Savings goals (amount and by what date)
+// Feedback for how long it took for user to meet their goal
