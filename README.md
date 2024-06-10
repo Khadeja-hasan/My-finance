@@ -4,7 +4,7 @@
 
 My app has two simple goals: one, to allow for children and teens to be able to track their savings, and two, to promote financial literacy amongst them. 
 
-My MVP consists of 4 pages (2 will be for later sprints as nice to haves, and 2 will be part of the core deliverables) - a sign up page, a login page, and once logged in, the first page it will direct the user to will present a little nugget of financial information to promote understanding of basic financial concepts, and then the user can proceed to updating their savings balance, as well as checking their savings. 
+My MVP consists of 2 pages (2 additional will be for later sprints as nice to haves, and 2 will be part of the core deliverables) - a sign up page, a login page, and once logged in, the first page it will direct the user to will present a little nugget of financial information to promote understanding of basic financial concepts, and then the user can proceed to updating their savings balance, as well as checking their savings. 
 
 ### Problem
 
@@ -33,12 +33,13 @@ Login Page: will take in username and password to allow access to account detail
 ### Tech Stack
 
 Tech stack: MySQL, React, Express, Node, JavaScript, HTML, SASS. 
-Libraries: Axios, Toastify, Reacter-router, among others. 
+Libraries for client side: Axios, Reacter-router, SASS, and framer-motion
+Libraries for server side: Nodemon, Express, CORS, dotenv
 
 ### APIs
 
 Core requirements:
-Will use an API to house all the educational snippets. 
+Will use an API to house all the advice snippets. 
 
 Nice to have:
 A database will need to be created to store account balances. 
