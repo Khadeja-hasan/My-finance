@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "advice": "Start saving money regularly, even if it's just a small amount each week."
+  },
+  {
+    "id": 2,
+    "advice": "Set financial goals for yourself, like saving for a new bike or a special trip."
+  },
+  {
+    "id": 3,
+    "advice": "Learn about different ways to earn money, such as doing chores, babysitting, or starting a small business."
+  },
+  {
+    "id": 4,
+    "advice": "Understand the difference between needs and wants. Focus on buying what you need first."
+  },
+  {
+    "id": 5,
+    "advice": "Avoid impulse buying. Think carefully before spending your money on something non-essential."
+  },
+  {
+    "id": 6,
+    "advice": "Learn about the power of compound interest. The earlier you start saving, the more your money can grow."
+  },
+  {
+    "id": 7,
+    "advice": "Don't be afraid to ask questions about money. Talk to your parents or a trusted adult if you have any concerns or curiosity."
+  },
+  {
+    "id": 8,
+    "advice": "Avoid debt whenever possible. If you borrow money, make sure you understand the terms and have a plan to pay it back."
+  },
+  {
+    "id": 9,
+    "advice": "Learn how to budget your money. Keep track of your expenses and prioritize your spending."
+  },
+  {
+    "id": 10,
+    "advice": "Consider opening a savings account. It's a safe place to keep your money and it can earn interest."
+  },
+  {
+    "id": 11,
+    "advice": "Be patient when it comes to financial goals. Saving and investing takes time, but it's worth it in the long run."
+  },
+  {
+    "id": 12,
+    "advice": "Learn about the stock market and how it works. Start with simple concepts and build your knowledge over time."
+  },
+  {
+    "id": 13,
+    "advice": "Be mindful of your spending habits. Think about whether your purchases align with your goals and values."
+  },
+  {
+    "id": 14,
+    "advice": "Consider the long-term consequences of your financial decisions. What might seem fun now could impact your future."
+  },
+  {
+    "id": 15,
+    "advice": "Save a portion of any money you receive as gifts or allowances. It's a good habit to get into."
+  },
+  {
+    "id": 16,
+    "advice": "Learn to differentiate between needs and wants. Needs are essentials for living, while wants are desires that are not necessary for survival."
+  },
+  {
+    "id": 17,
+    "advice": "Set aside money for emergencies. Having a safety net can help you deal with unexpected expenses without going into debt."
+  },
+  {
+    "id": 18,
+    "advice": "Avoid peer pressure to spend money on things you don't need or want. Stay true to your own financial goals and values."
+  },
+  {
+    "id": 19,
+    "advice": "Take advantage of opportunities to learn about money, such as books, online resources, or classes at school."
+  },
+  {
+    "id": 20,
+    "advice": "Consider the environmental and social impact of your purchases. Supporting ethical and sustainable companies can make a difference."
+  },
+  {
+    "id": 21,
+    "advice": "Learn about taxes and how they affect your income and spending. Understanding taxes is an important part of financial literacy."
+  },
+  {
+    "id": 22,
+    "advice": "Be cautious when sharing personal or financial information online. Protect your privacy and be aware of potential scams."
+  },
+  {
+    "id": 23,
+    "advice": "Don't be afraid to negotiate. Whether it's for your allowance or the price of a purchase, it's okay to ask for a better deal."
+  },
+  {
+    "id": 24,
+    "advice": "Start learning about investing. Even if you're young, understanding the basics can help you make smarter financial decisions later in life."
+  },
+  {
+    "id": 25,
+    "advice": "Remember that money isn't everything. While it's important to be financially responsible, true happiness comes from relationships and experiences, not material possessions."
+  },
+  {
+    "id": 26,
+    "advice": "Save a portion of your earnings from every paycheck."
+  },
+  {
+    "id": 27,
+    "advice": "Set clear goals for what you want to do with your money, like saving for a bike or a trip with friends."
+  },
+  {
+    "id": 28,
+    "advice": "Open a savings account to keep your money safe and earn interest."
+  },
+  {
+    "id": 29,
+    "advice": "Learn about taxes and why they're taken out of your paycheck."
+  },
+  {
+    "id": 30,
+    "advice": "Make a budget to plan how you'll spend and save your money each month."
+  },
+  {
+    "id": 31,
+    "advice": "Think about saving for college or other big expenses in the future."
+  },
+  {
+    "id": 32,
+    "advice": "Ask your employer about any benefits they offer, like discounts or extra training."
+  },
+  {
+    "id": 33,
+    "advice": "Avoid spending all your money right away. Save some for the future."
+  },
+  {
+    "id": 34,
+    "advice": "Think about giving some of your earnings to a charity or cause you care about."
+  },
+  {
+    "id": 35,
+    "advice": "Talk to your parents or a trusted adult if you have questions about money or your job."
+  },
+  {
+    "id": 36,
+    "advice": "Remember to enjoy your job, but also make time for other activities and friends."
+  },
+  {
+    "id": 37,
+    "advice": "Consider asking for more responsibilities at work to learn new skills."
+  },
+  {
+    "id": 38,
+    "advice": "Be proud of earning your own money, but be responsible with how you use it."
+  },
+  {
+    "id": 39,
+    "advice": "Think about what you might want to do for a career in the future, and how this job can help you learn."
+  },
+  {
+    "id": 40,
+    "advice": "Take breaks when you need them and don't forget to rest and relax after work."
+  },
+  {
+    "id": 41,
+    "advice": "Ask questions if you're not sure about something at work. It's okay to learn as you go."
+  },
+  {
+    "id": 42,
+    "advice": "Stay organized with your money and keep track of what you earn and spend."
+  },
+  {
+    "id": 43,
+    "advice": "Share your achievements with your family and friends. They'll be proud of you!"
+  },
+  {
+    "id": 44,
+    "advice": "Learn about the value of hard work and how it can help you achieve your goals."
+  },
+  {
+    "id": 45,
+    "advice": "Don't be afraid to ask for help if you need it, whether it's with your job or your finances."
+  },
+  {
+    "id": 46,
+    "advice": "Stay curious and keep learning about different ways to manage your money."
+  },
+  {
+    "id": 47,
+    "advice": "Be patient and persistent. Saving money takes time, but it's worth it."
+  },
+  {
+    "id": 48,
+    "advice": "Think about what you enjoy doing and how you can turn it into a job or career in the future."
+  },
+  {
+    "id": 49,
+    "advice": "Remember to have fun and enjoy the experience of working and earning your own money."
+  },
+  {
+    "id": 50,
+    "advice": "Stay positive and believe in yourself. You're capable of achieving great things!"
+  },
+  {
+    "id": 51,
+    "advice": "Learn about the stock market and how it works."
+  },
+  {
+    "id": 52,
+    "advice": "Invest in index funds for a low-cost way to diversify your portfolio."
+  },
+  {
+    "id": 53,
+    "advice": "Understand the risks and benefits of investing in cryptocurrency."
+  },
+  {
+    "id": 54,
+    "advice": "Learn to negotiate prices to get the best deal."
+  },
+  {
+    "id": 55,
+    "advice": "Avoid lifestyle creep by reassessing your spending habits regularly."
+  },
+  {
+    "id": 56,
+    "advice": "Take advantage of employer benefits, like retirement contributions or health savings accounts."
+  },
+  {
+    "id": 57,
+    "advice": "Learn about different types of retirement accounts and their tax advantages."
+  },
+  {
+    "id": 58,
+    "advice": "Avoid making emotional decisions when it comes to investing."
+  },
+  {
+    "id": 59,
+    "advice": "Consider volunteering or interning to gain experience instead of taking unpaid internships."
+  },
+  {
+    "id": 60,
+    "advice": "Learn about the importance of asset allocation in investment portfolios."
+  },
+  {
+    "id": 61,
+    "advice": "Understand the difference between a stock and a bond."
+  },
+  {
+    "id": 62,
+    "advice": "Start building your credit score early by using credit responsibly."
+  },
+  {
+    "id": 63,
+    "advice": "Take advantage of free financial planning tools and resources available online."
+  },
+  {
+    "id": 64,
+    "advice": "Consider opening a health savings account (HSA) if you have a high-deductible health plan."
+  },
+  {
+    "id": 65,
+    "advice": "Learn about the importance of liquidity in your financial plan."
+  },
+  {
+    "id": 66,
+    "advice": "Avoid carrying a balance on your credit cards; pay them off in full each month."
+  },
+  {
+    "id": 67,
+    "advice": "Understand the impact of inflation on your purchasing power."
+  },
+  {
+    "id": 68,
+    "advice": "Learn about the different types of retirement income streams, such as pensions and Social Security."
+  },
+  {
+    "id": 69,
+    "advice": "Start investing in your future by contributing to a retirement account as soon as possible."
+  },
+  {
+    "id": 70,
+    "advice": "Avoid timing the market and focus on long-term investing strategies."
+  },
+  {
+    "id": 71,
+    "advice": "Consider getting a part-time job or freelancing to earn extra income."
+  },
+  {
+    "id": 72,
+    "advice": "Take advantage of employer-sponsored benefits, such as retirement plans and flexible spending accounts."
+  },
+  {
+    "id": 73,
+    "advice": "Start an emergency fund to cover unexpected expenses."
+  },
+  {
+    "id": 74,
+    "advice": "Avoid lifestyle inflation by living below your means, even as your income increases."
+  },
+  {
+    "id": 75,
+    "advice": "Invest in your education and skills to increase your earning potential."
+  },
+  {
+    "id": 76,
+    "advice": "Create a budget and stick to it to avoid overspending."
+  },
+  {
+    "id": 77,
+    "advice": "Automate your savings to make it easier to save money consistently."
+  },
+  {
+    "id": 78,
+    "advice": "Avoid high-interest debt, such as credit cards and payday loans."
+  },
+  {
+    "id": 79,
+    "advice": "Take advantage of free financial education resources, such as online courses and workshops."
+  },
+  {
+    "id": 80,
+    "advice": "Consider opening a high-yield savings account to earn more interest on your savings."
+  },
+  {
+    "id": 81,
+    "advice": "Invest in a diversified portfolio to spread risk."
+  },
+  {
+    "id": 82,
+    "advice": "Start investing early to take advantage of compound interest."
+  },
+  {
+    "id": 83,
+    "advice": "Don't try to time the market; focus on long-term investing goals."
+  },
+  {
+    "id": 84,
+    "advice": "Understand the risks and benefits of different investment options, such as stocks, bonds, and real estate."
+  },
+  {
+    "id": 85,
+    "advice": "Avoid making emotional decisions when it comes to investing."
+  },
+  {
+    "id": 86,
+    "advice": "Take advantage of tax-advantaged retirement accounts, such as IRAs and 401(k)s."
+  },
+  {
+    "id": 87,
+    "advice": "Build an emergency fund to cover unexpected expenses."
+  },
+  {
+    "id": 88,
+    "advice": "Avoid carrying a balance on your credit cards; pay them off in full each month."
+  },
+  {
+    "id": 89,
+    "advice": "Consider getting a side hustle or freelancing to earn extra income."
+  },
+  {
+    "id": 90,
+    "advice": "Invest in yourself by continuing to learn and develop new skills."
+  },
+  {
+    "id": 91,
+    "advice": "Don't be afraid to ask for help or seek advice from financial professionals."
+  },
+  {
+    "id": 92,
+    "advice": "Understand the importance of diversification in your investment portfolio."
+  },
+  {
+    "id": 93,
+    "advice": "Be patient and disciplined when it comes to investing; avoid chasing short-term gains."
+  },
+  {
+    "id": 94,
+    "advice": "Take advantage of employer-sponsored retirement plans, such as 401(k)s."
+  },
+  {
+    "id": 95,
+    "advice": "Consider hiring a financial advisor to help you create a personalized financial plan."
+  },
+  {
+    "id": 96,
+    "advice": "Avoid making impulsive financial decisions; take the time to research and evaluate your options."
+  },
+  {
+    "id": 97,
+    "advice": "Start planning for retirement early to maximize your savings."
+  },
+  {
+    "id": 98,
+    "advice": "Take advantage of tax deductions and credits to minimize your tax liability."
+  },
+  {
+    "id": 99,
+    "advice": "Avoid trying to keep up with the Joneses; focus on your own financial goals and priorities."
+  },
+  {
+    "id": 100,
+    "advice": "Remember that financial success is a marathon, not a sprint; stay disciplined and consistent with your savings and investment strategies."
+  }
+]

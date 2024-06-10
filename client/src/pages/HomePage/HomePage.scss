@@ -1,0 +1,72 @@
+@use "../../styles/breakpoints.scss" as *;
+
+
+.home {
+    background-color: rgba(255, 85, 0, 0.834);
+    font-family:'Trebuchet MS';
+    height: 55rem;
+    padding-top: 1rem;
+    
+    &__graphic {
+        height: 8rem;
+        border-radius: 0.5rem;
+        margin-left: 35%;
+        background-color: #ac61f3;
+        border-radius: 0.5rem;
+        border: 4px yellow solid;
+
+    }
+
+    &__banner {
+        display: flex;
+        margin-left: 7vw;
+        margin-top: 2rem;
+
+    }
+
+    &__advice {
+        display: flexbox;
+        font-family: "VideoGame", sans-serif;
+        justify-content: center;
+        padding: 1rem 10vw;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__header {
+        text-align: center;
+        font-size: 2rem;
+        color: #117c84;
+    }
+
+    &__info {
+        background-color: rgb(242, 242, 103);
+        border-radius: 0.5rem;
+        border: 2px deeppink solid;
+        padding: 2rem;
+        color: darkblue;
+    }
+
+    &__generator{
+        margin: 2rem 35%;
+        background-color: orange;
+        border: none;
+        font-size: 1.5rem;
+        padding: 0.5rem 4rem;
+        border-radius: 1.5rem;
+        box-shadow: 0.5rem 0.5rem lightyellow;
+        // margin-bottom: 2rem;
+        font-family: "VideoGame";
+        width: 15rem;
+        // margin-right: 5rem;
+
+
+    &:hover {
+        box-shadow: 1rem 1rem maroon;
+        border: 3px solid white;
+        color: white;
+        font-size: 1.75rem;
+        cursor: pointer;
+    }
+    }
+}

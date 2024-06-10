@@ -1,0 +1,66 @@
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
+
+
+.header {
+
+    *,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+}
+    display: block;
+    width: 100vw;
+    text-align: center;
+    
+
+    &__link {
+        color: #7777e7;
+        padding-top: 0rem;
+
+        &:hover {
+        color: deeppink;
+    }
+    }
+
+    &__nav {
+        font-family: "VideoGame", sans-serif;
+        color: #093f24;
+        text-decoration:none;
+        font-size: 2rem;
+
+
+        &:hover {
+            border-bottom: 4px solid #359f6a;
+        }
+    }
+
+    &__title {
+        font-family: "Pacman", sans-serif;
+        font-size: 3rem;
+        background-color: orange;
+        border-bottom: 5px dotted yellow;
+        border-top: 5px dotted yellow;
+        margin-bottom: 0.5rem;
+    }
+
+    &__items {
+        display: inline-flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    &__item {
+        list-style: none;
+        font-family: "VideoGame", sans-serif;
+        width: 50%;
+        text-align: center;
+        font-size: 2rem;
+
+        &:hover {
+            font-size: 3rem;
+            padding-top: 0rem;
+        }
+    }
+}

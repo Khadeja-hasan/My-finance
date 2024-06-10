@@ -1,0 +1,250 @@
+@use "../../styles/fonts" as *;
+@use "../../styles/breakpoints" as *;
+
+.tracker {
+
+    *,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+}
+    font-family: "VideoGame", 'Courier New', Courier, monospace;
+    color: rgb(51, 86, 111);
+    background-color: rgb(64, 172, 234);
+    padding-top: 1rem;
+
+&__logo {
+    height:2rem;
+    display: inline-flex;
+    position: absolute;
+    right: 0.3rem
+}
+
+&__info {
+    padding-top: 2rem;
+}
+
+&__title {
+    font-size: 2.5rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+&__goals {
+    padding: 0rem 3rem;
+}
+
+&__sum {
+    padding: 0rem 3rem;
+}
+
+&__feedback {
+    border-radius: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border: 3px dotted yellowgreen;
+    padding: 0.5rem;
+    font-family: "VideoGame";
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+    &:hover {
+        background-color: rgb(20, 159, 159);
+        color: yellowgreen;
+        border: 5px dotted palevioletred;
+        cursor: pointer;
+
+
+        &::placeholder {
+            color: yellowgreen;
+        }
+    }
+
+    &:active {
+        color: white;
+        background-color: rgb(20, 159, 159);
+    }
+}
+
+&__feedback--standalone {
+    margin-left: 13rem;
+    height: 3rem;
+    font-size: 2.5rem;
+}
+
+&__submit {
+    background-color: orange;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.5rem lightyellow;
+    margin-bottom: 2rem;
+    font-family: "VideoGame";
+    width: 15rem;
+    margin-right: 5rem;
+
+
+    &:hover {
+        box-shadow: 1rem 1rem maroon;
+        border: 3px solid white;
+        color: white;
+        font-size: 1.75rem;
+        cursor: pointer;
+    }
+}
+
+&__formReset {
+    background-color: orange;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.5rem lightyellow;
+    font-family: "VideoGame";
+    width: 15rem;
+
+    &:hover {
+        box-shadow: 1rem 1rem maroon;
+        border: 3px solid white;
+        color: white;
+        font-size: 1.75rem;
+        cursor: pointer;
+
+    }
+}
+
+&__details {
+    color: white;
+}
+
+&__savingFor {
+    font-size: 2rem;
+}
+
+&__target {
+    font-size: 2rem;
+}
+
+&__sum {
+    font-size: 2rem;
+}
+
+&__percent {
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+&__progress {
+    width: 80vw;
+    height: 2rem;
+    border-radius: 20rem;
+    background-color: rgb(177, 177, 233);
+    border: 2px rgb(100, 16, 119) solid;
+    margin: 3rem;
+    position: relative
+    
+}
+
+&__indicator {
+    height: 1.75rem; 
+    background-color:lightcoral;
+    
+    position: relative;
+    border-radius: 20rem;
+}
+
+&__add {
+    background-color: orange;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.5rem lightyellow;
+    font-family: "VideoGame";
+    width: 15rem;
+    margin-right: 5rem;
+    margin-left: 3rem;
+
+    &:hover {
+        box-shadow: 1rem 1rem maroon;
+        border: 3px solid white;
+        color: white;
+        font-size: 1.75rem;
+        cursor: pointer;
+
+    }
+}
+
+&__subtract {
+    background-color: orange;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.5rem lightyellow;
+    font-family: "VideoGame";
+    width: 15rem;
+    margin-bottom: 3rem;
+
+    &:hover {
+        box-shadow: 1rem 1rem maroon;
+        border: 3px solid white;
+        color: white;
+        font-size: 1.75rem;
+        cursor: pointer;
+
+    }
+}
+
+&__reset {
+    background-color: #b545d7;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.5rem #76167b;
+    font-family: "VideoGame";
+    width: 15rem;
+    margin-bottom: 3rem;
+    margin-left: 13rem;
+
+    &:hover {
+        background-color: #c288d4;
+        box-shadow: 1rem 1rem #76167b;
+        border: 3px solid white;
+        color: white;
+        font-size: 1.75rem;
+        cursor: pointer;
+    }
+}
+
+&__end {
+    height: 2.5rem;
+    display: inline-flex;
+    position: absolute;
+    right: -3rem;
+    bottom: 0rem;    
+}
+
+&__next {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    background-color: orange;
+    border-top: 4px dotted rgb(240, 240, 179);
+    padding-right: 3rem;
+}
+
+&__go {
+    height: 5rem;
+    background-color: #b545d7;
+    border-radius: 0.5rem;
+    border: 3px solid white;
+
+    &:hover {
+        border: 3px dotted rgb(14, 100, 116);
+    }
+}
+
+}
