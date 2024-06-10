@@ -3,11 +3,10 @@ import Header from "../../Components/Header/Header.jsx"
 import graphic from "../../assets/homepage-removebg-preview.png";
 import { useState, useEffect } from "react";
 import axios from "axios";
-// import adviceList from "../../data/advice.json"
 
 export default function HomePage () {
-    const [adviceList, setAdviceList] = useState([])
-    const [advice, setAdvice] = useState("")
+    const [adviceList, setAdviceList] = useState([]);
+    const [advice, setAdvice] = useState("");
     const serverURL = process.env.REACT_APP_SERVER_URL;
 
     useEffect(() => {

@@ -1,6 +1,6 @@
 import "./Game.scss"
 import React from 'react';
-import Quiz from "../../Components/Quiz/Quiz.jsx"
+import Quiz from "../../Components/QuizPage/QuizPage.jsx"
 
 import Header from "../../Components/Header/Header.jsx"
 

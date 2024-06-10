@@ -1,17 +1,36 @@
 import "./Quiz.scss";
 
 import React, { useEffect, useState } from 'react';
+// import axios from "axios";
 
 import quiz from "../../data/quiz.json";
 
-export default function Quiz () {
+export default function QuizPage () {
 
+    // const [quiz, setQuiz] = useState([]);
     const [index, setIndex] = useState(0);
     const [question, setQuestion] = useState(quiz[index]);
     const [selection, setSelection] = useState(null);
-    const [correctResponse, setCorrectResponse] = useState("")
-    const [outcome, setOutcome] = useState("")
+    const [correctResponse, setCorrectResponse] = useState("");
+    const [outcome, setOutcome] = useState("");
     
+    // const serverURL = process.env.REACT_APP_SERVER_URL;
+
+    // useEffect(() => {
+    //     const getQuestionList = async () => {
+    //         try {
+    //             const getRequestedResponse = await axios.get(serverURL + `/api/quiz`)
+    //             const quizList = getRequestedResponse.data;
+    //             setQuiz(quizList);
+    //             console.log(quizList)
+    //         } catch (error) {
+    //             console.error("Unable to get useful data", error)
+    //         }
+    //     }
+    //     getQuestionList();
+    // }, [])
+
+    // console.log(quiz)
 
     const displayQuestion = quiz.map((item) => item)
    
@@ -39,6 +58,10 @@ export default function Quiz () {
         console.log(e.target.id)
 
         setOutcome(e.target.id == correctIndex? "quiz__correct" : "quiz__incorrect")
+    }
+
+    if (!question) {
+    return <div>Loading...</div>;
     }
 
     return (
